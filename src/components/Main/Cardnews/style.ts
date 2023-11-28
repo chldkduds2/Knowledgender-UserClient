@@ -33,7 +33,7 @@ export const CardnewsTitle = styled.div`
   overflow: hidden;
   color: #090a0a;
   font-family: Pretendard;
-  font-size: 1.5em; 
+  font-size: 1.5em;
   font-style: normal;
   font-weight: 700;
   line-height: normal;

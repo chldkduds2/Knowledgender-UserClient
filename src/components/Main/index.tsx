@@ -54,7 +54,7 @@ const Main: React.FC = () => {
       <S.MainContainer>
         <S.Mainbanner src={banner}></S.Mainbanner>
         <S.CategoryContentsContainer>
-          <Category></Category>
+          <Category />
           <S.CardnewsContentsWraper>
             <S.CardnewsWraper>
               <S.CardnewsTitleWraper>

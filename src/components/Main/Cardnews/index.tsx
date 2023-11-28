@@ -2,7 +2,7 @@ import React from "react";
 import * as S from "./style";
 import Thumbnail from "../../../assets/userbanner.svg";
 import { useNavigate } from "react-router-dom";
-const Cardnews = (data: any) => {
+const Cardnews = (data: any, usePagNumber: string) => {
   console.log(data);
   const movePage = useNavigate();
 

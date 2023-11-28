@@ -7,7 +7,7 @@ const CategoryPage = () => {
   return (
     <>
       <Header></Header>
-      <Category></Category>
+      <Category />
     </>
   );
 };

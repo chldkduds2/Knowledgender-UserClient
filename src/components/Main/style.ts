@@ -49,6 +49,7 @@ export const CardnewsContainer = styled.div`
 export const CardnewsWraper = styled.div`
   display: flex;
   flex-direction: column;
+  margin-bottom: 3%;
 `;
 export const CardnewsTitleWraper = styled.div`
   display: flex;

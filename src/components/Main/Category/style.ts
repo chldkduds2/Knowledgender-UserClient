@@ -41,6 +41,7 @@ export const CategoryText = styled.div`
   line-height: normal;
   margin: 0px;
   margin-top: 20px;
+  cursor: pointer;
 `;
 
 export const CategoryTextContainer = styled.div`
