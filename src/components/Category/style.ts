@@ -20,15 +20,24 @@ export const CardnewsTitleWraper = styled.div`
   flex-direction: column;
   height: 60px;
   justify-content: space-between;
-  margin-bottom: 20px;
+  margin-top: 5px;
+  margin-bottom: 30px;
+`;
+
+export const CardnewsSubtitle = styled.div`
+  color: #72777a;
+  font-family: Pretendard;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 `;
 
 export const CardnewsTitle = styled.div`
   color: #090a0a;
   font-family: Pretendard;
-  font-size: 2em;
+  font-size: 1.8em;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  height: 30px;
 `;
