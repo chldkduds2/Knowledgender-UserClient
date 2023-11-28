@@ -62,7 +62,7 @@ const CategoryOption = () => {
           >
             {cardnews?.map((slide: any) => (
               <SplideSlide key={slide}>
-                <Cardnews data={slide} pageNumber={"userPage2"} />
+                <Cardnews data={slide} />
               </SplideSlide>
             ))}
           </Splide>

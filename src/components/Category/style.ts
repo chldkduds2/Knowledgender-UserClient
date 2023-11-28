@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const CategoryContainer = styled.div`
-  width: 200vw;
+  width: 100vw;
   height: 100vh;
   padding-left: 10vw;
   padding-right: 10vw;
@@ -13,7 +13,7 @@ export const CardnewsWraper = styled.div`
   display: flex;
   flex-direction: column;
   margin-bottom: 3%;
-  margin-left: 5%;
+  margin-left: 3%;
 `;
 export const CardnewsTitleWraper = styled.div`
   display: flex;
