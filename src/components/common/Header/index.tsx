@@ -6,6 +6,7 @@ import { useNavigate } from "react-router-dom";
 
 const Header = () => {
   const navigate = useNavigate();
+  const url = "https://bento.me/knowledgender";
 
   const handleNavigate = (path: string) => {
     navigate(path);
@@ -13,10 +14,17 @@ const Header = () => {
   return (
     <>
       <S.HeaderContainer>
-        <S.HeaderLogo src={Logo}></S.HeaderLogo>
+        <S.HeaderLogo
+          src={Logo}
+          onClick={() => handleNavigate("/")}
+        ></S.HeaderLogo>
         <S.HeaderTextWraper>
-          <button onClick={() => handleNavigate("/cardlist")}>
-            <S.HeaderText>상담센터</S.HeaderText>
+          <button
+            onClick={() => {
+              window.open(url);
+            }}
+          >
+            <S.HeaderText>성지식 테스트</S.HeaderText>
           </button>
           <button onClick={() => handleNavigate("/cardlist")}>
             <S.HeaderText>로그인</S.HeaderText>

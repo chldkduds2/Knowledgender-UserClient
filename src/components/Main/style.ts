@@ -4,6 +4,10 @@ export const MainContainer = styled.div`
   width: 100vw;
   padding-left: 10vw;
   box-sizing: border-box;
+  overflow-x: hidden;
+  &::-webkit-scrollbar {
+    display: none;
+  }
 `;
 
 export const Mainbanner = styled.img`
@@ -26,7 +30,6 @@ export const CategoryContentsContainer = styled.div`
   height: 50vh;
   padding-top: 5vh;
   box-sizing: border-box;
-
   display: flex;
   flex-direction: row;
   gap: 5rem;
